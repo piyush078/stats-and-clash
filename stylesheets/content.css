@@ -1,0 +1,90 @@
+@media (min-width:767px) {
+    #content {
+        margin:0 80px;
+    }
+    
+    #content .block div {
+        font-size: 12px;
+    }
+
+    .block div.no, .block div.exp, .block div.information, .block div.trophies {
+        padding: 14px 5px;
+    }
+
+    .block div.information {
+        padding:6px 10px;
+    }
+    
+    .block div.badge {
+        padding:7px;
+    }
+
+    .block div.badge img {
+        height:32px;
+    }
+}
+
+@media(max-width:768px) {
+    #content {
+        margin:0 20px;
+    }
+    
+    #content .block div {
+        font-size: 10px;
+    }
+    
+    .block div.no, .block div.exp, .block div.information, .block div.trophies {
+        padding: 10px 5px;
+    }
+
+    .block div.information {
+        padding:4px 10px;
+    }
+    
+    .block div.badge {
+        padding:3px;
+    }
+    
+    .block div.badge img {
+        height:28px;
+    }
+}
+
+#content .block {
+    background: rgba(255, 255, 255, 0.7);
+    float: left;
+    border: 1px solid #ca9595;
+    border-radius: 3px;
+    margin-bottom: 3px;
+    width:100%;
+    cursor: pointer;
+}
+
+#content .block div {
+    float:left;
+}
+
+#content .block div.trophies {
+    float: right;
+    border-left: 1px solid #ca9595;
+}
+
+.block div.no {
+    width:30px;
+    border-right: 1px solid #ca9595;
+}
+
+.block div.exp {
+    width:45px;
+}
+
+.block div.badge {
+    border-left: 1px solid #ca9595;
+    border-right: 1px solid #ca9595;
+    border-radius: 3px;
+    background: white;
+}
+
+.block div.information div {
+    clear: both;
+}

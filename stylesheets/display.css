@@ -1,0 +1,201 @@
+#cover-screen {
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    height:100%;
+    width:100%;
+    z-index: 1000;
+    overflow: hidden;
+    padding: 10px 20px;
+}
+
+#clash-data {
+    background: rgba(6,78,81,0.85);
+    border:1px solid white;
+    border-radius:5px;
+    height: 100%;
+    color:white;
+    overflow-y: scroll;
+}
+
+#clash-data .close {
+    float:right;
+    cursor: pointer;
+}
+
+#clash-data .clan {
+    cursor: pointer;
+}
+
+#clash-data .troops {
+    clear: both;
+}
+
+#clash-data .info div {
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+
+@media (min-width: 768px) {
+    #clash-data {
+        padding: 20px;
+    }
+    
+    #clash-data .close img {
+        height:40px;
+    }
+    
+    #clash-data .town-hall img {
+        height: 200px;
+    }
+    
+    #clash-data .name {
+        margin-top: -70px;
+        font-size: 40px;
+    }
+    
+    #clash-data .town-hall-level, #clash-data .level, #clash-data .description {
+        font-size: 11px;
+    }
+    
+    #clash-data .info {
+        width:100%;
+        padding:0 15%;
+        float: left;
+        margin:10px 0;
+    }
+    
+    #clash-data .info div {
+        width:49.4%;
+        padding:7px 15px;
+        float:left;
+        margin-bottom: 5px;
+    }
+    
+    #clash-data .info div:nth-child(odd) {
+        margin-right: 5px;
+    }
+    
+    #clash-data .info div span {
+        display: block;
+    }
+    
+    #clash-data span.value {
+        font-size: 11px;
+    }
+    
+    #clash-data div.troops, #clash-data div.members {
+        width:100%;
+        padding: 0 15%;
+        margin-top: -10px;
+        font-size: 11px;
+    }
+    
+    #clash-data div.troops div {
+        width:48.5%;
+        margin-bottom: 5px;
+        margin-right: 5px;
+        padding: 5px 10px;
+        float: left;
+        border: 1px solid white;
+    }
+    
+    #clash-data div.member-block {
+        float: left;
+        cursor: pointer;
+        width:100%;
+        border: 1px solid white;
+    }
+    
+    #clash-data div.member-block div {
+        font-size: 11px;
+        float: left;
+        padding:5px 3px;
+    }
+    
+    #clash-data div.member-block div.no {
+        border-right: 1px solid white;
+    }
+    
+    #clash-data div.member-block div img {
+        height:15px;
+    }
+}
+
+@media (max-width: 767px) {
+    #clash-data {
+        padding: 20px 10px;
+    }
+    
+    #clash-data .close img {
+        height:30px;
+    }
+    
+    #clash-data .town-hall img {
+        height: 120px;
+    }
+    
+    #clash-data .name {
+        margin-top: -45px;
+        font-size: 22px;
+    }
+    
+    #clash-data .town-hall-level, #clash-data .level, #clash-data .description {
+        font-size: 10px;
+    }
+    
+    #clash-data .info {
+        width:100%;
+        float: left;
+        margin:10px 0;
+    }
+    
+    #clash-data .info div {
+        padding:7px 15px;
+        margin-bottom: 2px;
+    }
+    
+    #clash-data .info div span {
+        display: block;
+    }
+    
+    #clash-data span.value {
+        font-size: 11px;
+    }
+    
+    #clash-data div.troops {
+        width:100%;
+        padding: 0 15%;
+        margin-top: -10px;
+        font-size: 11px;
+    }
+    
+    #clash-data div.troops div {
+        margin-bottom: 2px;
+        padding: 5px 10px;
+        border: 1px solid white;
+    }
+
+    #clash-data div.member-block {
+        float: left;
+        cursor: pointer;
+        width:100%;
+        border: 1px solid white;
+    }
+    
+    #clash-data div.member-block div {
+        font-size: 10px;
+        float: left;
+        padding:5px 3px;
+    }
+    
+    #clash-data div.member-block div.no {
+        border-right: 1px solid white;
+    }
+    
+    #clash-data div.member-block div img {
+        height:15px;
+    }
+}

@@ -1,0 +1,94 @@
+* {
+    margin:0;
+    padding:0;
+    text-align: center;
+    font-family: Supercell Magic;
+}
+
+ul {
+    list-style: none;
+}
+
+@font-face {
+    font-family: Supercell Magic;
+    src: url(Supercell-magic-webfont.ttf);
+}
+
+@keyframes change-header-bg {
+    from {background-color: white;}
+    to {background-color: red;}
+}
+
+.header {
+    background: rgba(255, 255, 255, 0.5);
+    margin-bottom: 5px;
+}
+
+#navbar {
+    display: none;
+    padding-top: 7px;
+}
+
+#navbar ul {
+    padding: 2px 0 3px 0;
+}
+
+#navbar ul li {
+    cursor: pointer;
+    display: inline;
+    padding: 0 20px;
+    color: black;
+}
+
+.web-bg {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.search {
+    display: none;
+    padding: 7px;
+}
+
+.search input {
+    width: 100%;
+    padding: 3px 20px 3px 10px;
+    text-align: left;
+    outline: none;
+    border: 1px solid #ca9595;
+}
+
+.search input, .cancel {
+    font-size: 12px;
+}
+
+.search .cancel {
+    cursor: pointer;
+    position:relative;
+    float: right;
+    margin: -21px 10px 0 0;
+}
+
+@media (min-width:767px) {
+    .search {
+        margin:0 80px;
+    }
+}
+
+@media(max-width:768px) {
+    .search {
+        margin:0 20px;
+    }
+}
+
+.loading {
+    background: rgba(255,255,255,0.5);
+    padding:10px 20px;
+    color:black;
+}
